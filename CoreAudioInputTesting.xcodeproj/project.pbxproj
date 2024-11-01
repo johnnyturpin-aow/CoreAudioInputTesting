@@ -6,17 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		10DA89852CD56C0000996C6F /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA897E2CD56C0000996C6F /* AppViewModel.swift */; };
+		10DA89882CD56C0000996C6F /* StaticTestingTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA89832CD56C0000996C6F /* StaticTestingTemplate.swift */; };
+		10DA89892CD56C0000996C6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DA897C2CD56C0000996C6F /* Preview Assets.xcassets */; };
+		10DA898A2CD56C0000996C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DA897F2CD56C0000996C6F /* Assets.xcassets */; };
+		10DA898D2CD56C2B00996C6F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA898C2CD56C2B00996C6F /* Utilities.swift */; };
+		10DA89912CD56C3600996C6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA898E2CD56C3600996C6F /* ContentView.swift */; };
+		10DA89922CD56C3600996C6F /* CoreAudioInputTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA898F2CD56C3600996C6F /* CoreAudioInputTestingApp.swift */; };
+		10DA89942CD56CF100996C6F /* AUGraphInputToMixerToOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA89932CD56CF100996C6F /* AUGraphInputToMixerToOutput.swift */; };
+		10DA89992CD56D4B00996C6F /* CARingBufferWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10DA89982CD56D4B00996C6F /* CARingBufferWrapper.mm */; };
+		10DA899A2CD56D4B00996C6F /* CARingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10DA89962CD56D4B00996C6F /* CARingBuffer.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		10DA89642CD5687A00996C6F /* CoreAudioInputTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAudioInputTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DA897C2CD56C0000996C6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10DA897E2CD56C0000996C6F /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		10DA897F2CD56C0000996C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10DA89812CD56C0000996C6F /* CoreAudioInputTesting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreAudioInputTesting.entitlements; sourceTree = "<group>"; };
+		10DA89832CD56C0000996C6F /* StaticTestingTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTestingTemplate.swift; sourceTree = "<group>"; };
+		10DA898C2CD56C2B00996C6F /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		10DA898E2CD56C3600996C6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10DA898F2CD56C3600996C6F /* CoreAudioInputTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioInputTestingApp.swift; sourceTree = "<group>"; };
+		10DA89932CD56CF100996C6F /* AUGraphInputToMixerToOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUGraphInputToMixerToOutput.swift; sourceTree = "<group>"; };
+		10DA89952CD56D4B00996C6F /* CARingBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARingBuffer.h; sourceTree = "<group>"; };
+		10DA89962CD56D4B00996C6F /* CARingBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CARingBuffer.cpp; sourceTree = "<group>"; };
+		10DA89972CD56D4B00996C6F /* CARingBufferWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARingBufferWrapper.h; sourceTree = "<group>"; };
+		10DA89982CD56D4B00996C6F /* CARingBufferWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CARingBufferWrapper.mm; sourceTree = "<group>"; };
+		10DA899B2CD56D4C00996C6F /* CoreAudioInputTesting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreAudioInputTesting-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		10DA89662CD5687A00996C6F /* CoreAudioInputTesting */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoreAudioInputTesting;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		10DA89612CD5687A00996C6F /* Frameworks */ = {
@@ -32,7 +51,7 @@
 		10DA895B2CD5687A00996C6F = {
 			isa = PBXGroup;
 			children = (
-				10DA89662CD5687A00996C6F /* CoreAudioInputTesting */,
+				10DA89842CD56C0000996C6F /* CoreAudioInputTesting */,
 				10DA89652CD5687A00996C6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +62,51 @@
 				10DA89642CD5687A00996C6F /* CoreAudioInputTesting.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		10DA897D2CD56C0000996C6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10DA897C2CD56C0000996C6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10DA89842CD56C0000996C6F /* CoreAudioInputTesting */ = {
+			isa = PBXGroup;
+			children = (
+				10DA897D2CD56C0000996C6F /* Preview Content */,
+				10DA897E2CD56C0000996C6F /* AppViewModel.swift */,
+				10DA89932CD56CF100996C6F /* AUGraphInputToMixerToOutput.swift */,
+				10DA898C2CD56C2B00996C6F /* Utilities.swift */,
+				10DA899C2CD56D6300996C6F /* RingBuffer */,
+				10DA897F2CD56C0000996C6F /* Assets.xcassets */,
+				10DA89902CD56C3600996C6F /* Views */,
+				10DA89812CD56C0000996C6F /* CoreAudioInputTesting.entitlements */,
+				10DA89832CD56C0000996C6F /* StaticTestingTemplate.swift */,
+				10DA899B2CD56D4C00996C6F /* CoreAudioInputTesting-Bridging-Header.h */,
+			);
+			path = CoreAudioInputTesting;
+			sourceTree = "<group>";
+		};
+		10DA89902CD56C3600996C6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10DA898E2CD56C3600996C6F /* ContentView.swift */,
+				10DA898F2CD56C3600996C6F /* CoreAudioInputTestingApp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10DA899C2CD56D6300996C6F /* RingBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				10DA89952CD56D4B00996C6F /* CARingBuffer.h */,
+				10DA89962CD56D4B00996C6F /* CARingBuffer.cpp */,
+				10DA89972CD56D4B00996C6F /* CARingBufferWrapper.h */,
+				10DA89982CD56D4B00996C6F /* CARingBufferWrapper.mm */,
+			);
+			path = RingBuffer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +123,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				10DA89662CD5687A00996C6F /* CoreAudioInputTesting */,
 			);
 			name = CoreAudioInputTesting;
 			packageProductDependencies = (
@@ -82,6 +143,7 @@
 				TargetAttributes = {
 					10DA89632CD5687A00996C6F = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -109,6 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DA89892CD56C0000996C6F /* Preview Assets.xcassets in Resources */,
+				10DA898A2CD56C0000996C6F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DA89852CD56C0000996C6F /* AppViewModel.swift in Sources */,
+				10DA89912CD56C3600996C6F /* ContentView.swift in Sources */,
+				10DA89922CD56C3600996C6F /* CoreAudioInputTestingApp.swift in Sources */,
+				10DA898D2CD56C2B00996C6F /* Utilities.swift in Sources */,
+				10DA89992CD56D4B00996C6F /* CARingBufferWrapper.mm in Sources */,
+				10DA899A2CD56D4B00996C6F /* CARingBuffer.cpp in Sources */,
+				10DA89942CD56CF100996C6F /* AUGraphInputToMixerToOutput.swift in Sources */,
+				10DA89882CD56C0000996C6F /* StaticTestingTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CoreAudioInputTesting/CoreAudioInputTesting.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -262,10 +335,13 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alloneword.CoreAudioInputTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreAudioInputTesting/CoreAudioInputTesting-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -275,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CoreAudioInputTesting/CoreAudioInputTesting.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -289,10 +366,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alloneword.CoreAudioInputTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreAudioInputTesting/CoreAudioInputTesting-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
