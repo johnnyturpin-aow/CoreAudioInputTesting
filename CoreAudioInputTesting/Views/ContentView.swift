@@ -54,10 +54,12 @@ struct ContentView: View {
 								Text("Channel[\(chan.description)]")
 									.frame(width: 75)
 								HStack {
+									// TODO: Will eventually render the audio levels stored in: appModel.player.inputMetersAvgPwr
 									ForEach(0..<20) {
 										level in
 										Rectangle()
-											//.fill(level < 12 ? .green : level < 18 ? .yellow: .red)
+										
+										//.fill(level < 12 ? .green : level < 18 ? .yellow: .red)
 											.stroke(.white.opacity(0.1), lineWidth: 1)
 											.frame(width: 10)
 									}
